@@ -3,4 +3,4 @@ function reverse (n) {
   return  n.split("").reverse().join("");
      
 }
-console.log(reverse(n));
+
