@@ -1,5 +1,6 @@
-var n = [1, 2, 3];
+var n = "178";
 function reverse (n) {    
-        return n.reverse();
+  return  n.split("").reverse().join("");
+     
 }
 console.log(reverse(n));
