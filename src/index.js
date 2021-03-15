@@ -1,8 +1,5 @@
-//  function reverse (n) {    
-//         return [...n].reverse().join("");    
-// }
-// console.log(123);
-function solution(str) {
-    return [...str].reverse().join("");
+var n = [1, 2, 3];
+function reverse (n) {    
+        return n.reverse();
 }
-console.log(solution("world"));
+console.log(reverse(n));
