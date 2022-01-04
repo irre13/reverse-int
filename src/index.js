@@ -1,5 +1,4 @@
-module.exports = function reverse (n) {
-  let reversed = number.toString().split("").reverse().join("");
-  return parseInt(reversed) * Math.sign(number);
+module.exports = function reverse(n) {
+  let reversed = n.toString().split("").reverse().join("");
+  return parseInt(reversed) * Math.sign(n);
 }
-console.log(reverse(123));
